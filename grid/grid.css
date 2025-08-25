@@ -1,0 +1,50 @@
+.main{
+    width: 800px;
+    height: 400px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 10px;
+    
+    
+}
+
+.main div{
+    border: 1px solid black;
+}
+.one{
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: green;
+}
+.two{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color:green ;
+}
+.three{
+    background-color: red;
+
+}
+.four{
+    background-color: yellow;
+}
+.five{
+    background-color: red;
+
+}
+.seven{
+    background-color: red;
+
+}
+.eight{
+    background-color: yellow;
+}
+.six{
+    grid-row-start: 2 ;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    background-color: green;
+}

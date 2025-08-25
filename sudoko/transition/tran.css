@@ -1,0 +1,32 @@
+.main{
+    box-sizing: border-box;
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/*
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+
+}
+.box:hover{
+    transform: rotate(360deg);
+   transform: scale(6);
+  transform: skew(2);
+    transition: 5s;
+
+}*/
+h1{
+ font-family: "Bitcount Grid Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: italic;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+}

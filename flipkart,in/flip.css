@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: #2874f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    
+}
+.colorplus{
+    color: yellow;
+    font-weight: 900;
+}
+#exp{
+    color: white;
+    position: relative;
+    top: -5px;
+    font-size: 15px;
+    font-style: italic;
+}
+.search{
+    background-color: white;
+    padding: 8px;
+    width: 420px;
+    height: 20px;
+    margin: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874f0;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.3),
+     7px 7px 10px rgba(0, 0, 0, 0.2);
+     border-radius: 2px;
+}
+.search input{
+    width: 380px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+.btn{
+    padding: 7px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    color: #2874f0;
+}
+.items{
+    display: flex;
+}
+.items p{
+    text-decoration: none;
+    margin: 0px 20px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    display: block;
+   
+}
+
+
+
+.sections{
+    
+    width: 100%;
+    height: 40px;
+}
+.sections .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sections .header p{
+    color:black;
+    font-weight: 550;
+    padding:10px 20px;
+}
+.sides{
+    width: 98vw;
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+.leftside{
+    width: 20%;
+    height: 80%;
+    border: 1px solid rgb(174, 22, 22);
+    margin: 10px;
+}
+.rightside{
+    width: 80%;
+    height: 100%;
+    border: 1px solid black;
+    margin: 10px;
+}
+.para{
+    padding: 10px 20px;
+    font-size: 13px;
+    color: #878787;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nextpara{
+    color: black;
+    display: block;    
+
+}
+.paraa{
+    color: #2874f0;
+    text-decoration: none;
+}

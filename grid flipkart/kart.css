@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(242, 232, 232);
+    gap: 0px;
+  
+  
+}
+
+.main{
+    width: 450px;
+    margin: 0;
+    padding: 20px;
+    
+}
+
+.mainone{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap: 5px;
+    border: 1px solid rgb(228, 220, 220);
+}
+h1{
+    font-size: 26px;
+}
+
+.gridone{
+    background-color:rgb(240, 240, 240);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.gridone img {
+   
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.gridone h2 {
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.gridone a {
+    color: rgb(38, 119, 38);
+    font-weight: bold;
+}
